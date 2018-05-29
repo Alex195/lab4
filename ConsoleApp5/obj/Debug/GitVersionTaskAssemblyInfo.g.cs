@@ -11,9 +11,9 @@
 using System;
 using System.Reflection;
 
-[assembly: AssemblyVersion("1.9.0.0")]
-[assembly: AssemblyFileVersion("1.9.0.0")]
-[assembly: AssemblyInformationalVersion("1.9.0+Branch.develop.Sha.075432838f490425a75d01f81556c291143e30c6")]
+[assembly: AssemblyVersion("1.9.2.0")]
+[assembly: AssemblyFileVersion("1.9.2.0")]
+[assembly: AssemblyInformationalVersion("1.9.2-develop.1+Branch.dev.Sha.f263227349940b0f5ce38e849196f5d592bad969")]
 
 namespace ConsoleApp5
 {
@@ -23,30 +23,30 @@ namespace ConsoleApp5
     {
         public static string Major = "1";
         public static string Minor = "9";
-        public static string Patch = "0";
-        public static string PreReleaseTag = "";
-        public static string PreReleaseTagWithDash = "";
-        public static string PreReleaseLabel = "";
-        public static string PreReleaseNumber = "";
+        public static string Patch = "2";
+        public static string PreReleaseTag = "develop.1";
+        public static string PreReleaseTagWithDash = "-develop.1";
+        public static string PreReleaseLabel = "develop";
+        public static string PreReleaseNumber = "1";
         public static string BuildMetaData = "";
         public static string BuildMetaDataPadded = "";
-        public static string FullBuildMetaData = "Branch.develop.Sha.075432838f490425a75d01f81556c291143e30c6";
-        public static string MajorMinorPatch = "1.9.0";
-        public static string SemVer = "1.9.0";
-        public static string LegacySemVer = "1.9.0";
-        public static string LegacySemVerPadded = "1.9.0";
-        public static string AssemblySemVer = "1.9.0.0";
-        public static string AssemblySemFileVer = "1.9.0.0";
-        public static string FullSemVer = "1.9.0";
-        public static string InformationalVersion = "1.9.0+Branch.develop.Sha.075432838f490425a75d01f81556c291143e30c6";
-        public static string BranchName = "develop";
-        public static string Sha = "075432838f490425a75d01f81556c291143e30c6";
-        public static string NuGetVersionV2 = "1.9.0";
-        public static string NuGetVersion = "1.9.0";
-        public static string NuGetPreReleaseTagV2 = "";
-        public static string NuGetPreReleaseTag = "";
-        public static string CommitsSinceVersionSource = "0";
-        public static string CommitsSinceVersionSourcePadded = "0000";
+        public static string FullBuildMetaData = "Branch.dev.Sha.f263227349940b0f5ce38e849196f5d592bad969";
+        public static string MajorMinorPatch = "1.9.2";
+        public static string SemVer = "1.9.2-develop.1";
+        public static string LegacySemVer = "1.9.2-develop1";
+        public static string LegacySemVerPadded = "1.9.2-develop0001";
+        public static string AssemblySemVer = "1.9.2.0";
+        public static string AssemblySemFileVer = "1.9.2.0";
+        public static string FullSemVer = "1.9.2-develop.1";
+        public static string InformationalVersion = "1.9.2-develop.1+Branch.dev.Sha.f263227349940b0f5ce38e849196f5d592bad969";
+        public static string BranchName = "dev";
+        public static string Sha = "f263227349940b0f5ce38e849196f5d592bad969";
+        public static string NuGetVersionV2 = "1.9.2-develop0001";
+        public static string NuGetVersion = "1.9.2-develop0001";
+        public static string NuGetPreReleaseTagV2 = "develop0001";
+        public static string NuGetPreReleaseTag = "develop0001";
+        public static string CommitsSinceVersionSource = "1";
+        public static string CommitsSinceVersionSourcePadded = "0001";
         public static string CommitDate = "2018-05-29";
     }
 

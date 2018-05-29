@@ -18,7 +18,8 @@ namespace ConsoleApp5
                     var fileVersionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
                     var version = fileVersionInfo.ProductVersion;
                     Console.Write(fileVersionInfo);
-                     Console.Write("1.111");
+            Console.Write("1.34214");
+                         
                     Console.ReadLine();
     
                 }
